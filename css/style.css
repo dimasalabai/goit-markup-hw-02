@@ -1,13 +1,12 @@
 /* ----------Default styles --------*/
 :root {
-	--brand-color: #4D5AE5;
-	--main-text: #2E2F42;
+	--brand-color: #4d5ae5;
+	--main-text: #2e2f42;
 	--second-text: #434455;
 	--bg-color: #ffff;
-	--bg-button: #F4F4FD;
-	--border-button: #E7E9FC;
-	--hover-ocean: #404BBF;
-
+	--bg-button: #f4f4fd;
+	--border-button: #e7e9fc;
+	--hover-ocean: #404bbf;
 }
 
 body {
@@ -44,11 +43,11 @@ button {
 /* --------Main Styles------ */
 /* -------Header---------- */
 
-.header {}
+.header {
+}
 
-.header-nav {}
-
-
+.header-nav {
+}
 .header-logo {
 	font-family: Raleway;
 	font-size: 18px;
@@ -58,31 +57,27 @@ button {
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
-
 .header-logo span {
 	color: var(--brand-color);
 }
-
-
-.header-nav-list {}
-
-.header-nav-item {}
-
+.header-nav-list {
+}
+.header-nav-item {
+}
 .header-nav-link {
 	line-height: 150%;
 	letter-spacing: 0.32px;
 }
-
 .header-nav-link:hover {
 	color: var(--hover-ocean);
 }
 
-
-.header-address {}
-
-.header-address-list {}
-
-.header-address-item {}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
 
 .header-address-link {
 	font-weight: 400;
@@ -96,17 +91,85 @@ button {
 	color: var(--hover-ocean);
 }
 
-/* ------Page------------- */
-.page {}
+/* -------Main------------ */
 
-.page-filter {}
+.solutions h1 {
+	color: var(--bg-color);
+	text-align: center;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 107.143%;
+	letter-spacing: 1.12px;
+}
+.solution-btn {
+	background-color: var(--brand-color);
+	color: var(--bg-color);
+	line-height: 150%;
+	letter-spacing: 0.64px;
+	border: none;
+}
+
+/* -------Advantages-------------- */
+.advantages {
+}
+
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtile {
+}
+.subtitle {
+	color: var(--main-text);
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.4px;
+}
+.advantages-text {
+}
+.text {
+	color: var(--second-text);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+
+/* ------About--------- */
+
+.about {
+}
+
+.about-title {
+}
+.title {
+	color: var(--main-text);
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 111.111%;
+	letter-spacing: 0.72px;
+	text-transform: capitalize;
+}
+
+.about-list {
+}
+.about-item {
+}
+
+/* ------Page------------- */
+.page {
+}
+.page-filter {
+}
 
 /* ---------Filter----------- */
-.filter-list {}
-
-.filter-item {}
-
-.filter-link {}
+.filter-list {
+}
+.filter-item {
+}
+.filter-link {
+}
 
 .filter-button {
 	color: var(--brand-color);
@@ -116,9 +179,30 @@ button {
 	line-height: 150%;
 	letter-spacing: 0.64px;
 }
-
 .filter-button:hover {
 	background-color: var(--hover-ocean);
 	color: var(--bg-color);
-	border: none
+	border: none;
+}
+
+/* -------FOOTER------------ */
+.footer {
+	background-color: var(--main-text);
+}
+.footer-logo {
+	color: var(--bg-color);
+	color: var(--bg-button);
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 116.667%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.footer-logo span {
+	color: var(--brand-color);
+}
+.footer-text {
+	color: var(--bg-color);
 }
