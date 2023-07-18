@@ -1,8 +1,13 @@
 /* ----------Default styles --------*/
 :root {
+	--brand-color: #4D5AE5;
 	--main-text: #2E2F42;
 	--second-text: #434455;
 	--bg-color: #ffff;
+	--bg-button: #F4F4FD;
+	--border-button: #E7E9FC;
+	--hover-ocean: #404BBF;
+
 }
 
 body {
@@ -55,7 +60,7 @@ button {
 }
 
 .header-logo span {
-	color: #4D5AE5;
+	color: var(--brand-color);
 }
 
 
@@ -65,8 +70,15 @@ button {
 
 .header-nav-link {
 	line-height: 150%;
+	letter-spacing: 0.32px;
 }
 
+.header-nav-link:hover {
+	color: var(--hover-ocean);
+}
+
+
+.header-address {}
 
 .header-address-list {}
 
@@ -75,10 +87,38 @@ button {
 .header-address-link {
 	font-weight: 400;
 	line-height: 150%;
+	letter-spacing: 0.32px;
 	color: var(--second-text);
 }
 
 .header-address-link:hover,
 .header-address-link:active {
-	color: #404BBF;
+	color: var(--hover-ocean);
+}
+
+/* ------Page------------- */
+.page {}
+
+.page-filter {}
+
+/* ---------Filter----------- */
+.filter-list {}
+
+.filter-item {}
+
+.filter-link {}
+
+.filter-button {
+	color: var(--brand-color);
+	background-color: var(--bg-button);
+	border: 1px solid var(--border-button);
+	text-align: center;
+	line-height: 150%;
+	letter-spacing: 0.64px;
+}
+
+.filter-button:hover {
+	background-color: var(--hover-ocean);
+	color: var(--bg-color);
+	border: none
 }
