@@ -133,7 +133,7 @@ button {
 	letter-spacing: 1.12px;
 }
 .solution-btn {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	background-color: var(--brand-color);
