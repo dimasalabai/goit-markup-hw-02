@@ -1,0 +1,30 @@
+/* ----------Defoult styles --------*/
+:root {
+	--main-text: #2E2F42;
+	--bg-color: #ffff;
+}
+
+body {
+	font-family: Roboto;
+	color: var(--main-text);
+	background-color: var(--bg-color);
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
