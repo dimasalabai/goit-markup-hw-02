@@ -114,13 +114,17 @@ button {
 }
 
 .header-address-link:hover,
-.header-address-link:active {
+.header-address-link:focus {
 	color: #404bbf;
 }
 
 /*! -------Main------------ */
 
-.solutions h1 {
+.solutions {
+	background-color: var(--second-text);
+}
+
+.main-title {
 	color: var(--bg-color);
 	text-align: center;
 	font-size: 56px;
@@ -129,11 +133,19 @@ button {
 	letter-spacing: 1.12px;
 }
 .solution-btn {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
 	background-color: var(--brand-color);
 	color: var(--bg-color);
-	line-height: 150%;
-	letter-spacing: 0.64px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
 	border: none;
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+	background-color: #404bbf;
 }
 
 /* -------Advantages-------------- */
@@ -161,6 +173,31 @@ button {
 .about-list {
 }
 .about-item {
+}
+
+/* --------Team---------- */
+
+.team {
+	background-color: #f4f4fd;
+}
+.team-title {
+}
+.title {
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+	background-color: #ffff;
+}
+.team-subtitle {
+}
+.subtitle {
+}
+.team-text {
+}
+.text {
 }
 
 /* !--------PAGE------------- */
@@ -209,8 +246,8 @@ button {
 }
 
 .footer-logo span {
-	color: var(--second-text);
+	color: #f4f4fd;
 }
 .footer-text {
-	color: var(--bg-color);
+	color: var(--bg-button);
 }
