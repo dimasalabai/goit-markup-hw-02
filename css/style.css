@@ -1,18 +1,21 @@
-/* ----------Defoult styles --------*/
+/* ----------Default styles --------*/
 :root {
 	--main-text: #2E2F42;
+	--second-text: #434455;
 	--bg-color: #ffff;
 }
 
 body {
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color: var(--main-text);
 	background-color: var(--bg-color);
 	font-weight: 500;
+	font-size: 16px;
 }
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 li {
@@ -27,4 +30,55 @@ h5,
 h6 {
 	font-size: inherit;
 	font-weight: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* --------Main Styles------ */
+/* -------Header---------- */
+
+.header {}
+
+.header-nav {}
+
+
+.header-logo {
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 116.667%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.header-logo span {
+	color: #4D5AE5;
+}
+
+
+.header-nav-list {}
+
+.header-nav-item {}
+
+.header-nav-link {
+	line-height: 150%;
+}
+
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+	font-weight: 400;
+	line-height: 150%;
+	color: var(--second-text);
+}
+
+.header-address-link:hover,
+.header-address-link:active {
+	color: #404BBF;
 }
